@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        String nimLengkap = "202410370110209"; // Ganti dengan NIM lengkap Anda
+        String nimLengkap = "202410370110490"; // Ganti dengan NIM lengkap Anda
         String tigaDigitTerakhirNIM = nimLengkap.substring(nimLengkap.length() - 3);
 
         System.out.println("Pilih Jenis Login:");
@@ -32,7 +32,7 @@ public class Main {
             System.out.print("NIM: ");
             String nim = input.nextLine();
 
-            if (nama.equals("Shonia") && nim.equals(tigaDigitTerakhirNIM)) { // Ganti "Nama Kalian" dengan nama Anda
+            if (nama.equals("Fathan") && nim.equals(tigaDigitTerakhirNIM)) { // Ganti "Nama Kalian" dengan nama Anda
                 System.out.println("Login Mahasiswa berhasil!");
                 System.out.println("Nama: " + nama);
                 System.out.println("NIM: " + nim);
